@@ -11,7 +11,6 @@ extern "C" {
 #endif
 #include <stddef.h>
 #include <stdint.h>
-#include <stdlib.h>
 
 #define TLS_VERSION_NUMBER(id)                                                 \
     ((((id##_VERSION_MAJOR) & 0xFF) << 8) | ((id##_VERSION_MINOR) & 0xFF))
